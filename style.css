@@ -813,6 +813,24 @@ footer .social-icons a:hover{
 .services-wrapper h1{
     font-size: 35px;
 }
+.about{
+    padding:40px 0;
+}
+.about .row{
+    gap: 1px;
+    margin-top: 20px;
+}
+.about .row .col{
+    width: 300px;
+    padding: 50px 5px;
+}
+.about .about-heading{
+    font-size: 15px;
+
+}
+.about .about-heading h3{
+    margin-bottom: 10px;
+}
 
 }
 
