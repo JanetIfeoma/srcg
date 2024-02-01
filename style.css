@@ -242,7 +242,7 @@ transition: 0.3s ease;
 
 .home2 .home2-text p{
     color: #333;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 25px;
     line-height: 25px;
 
@@ -792,6 +792,9 @@ footer .social-icons a:hover{
        font-size: 30px;
         
     }
+    .home2{
+        padding-bottom: 10px;
+    }
     .home2 img{
         margin: 10px 20px;
         height: auto;
@@ -803,34 +806,45 @@ footer .social-icons a:hover{
         width: 350px;
         height: auto;
     }
+    .home2 .home2-text p{
+        text-align: left;
+        line-height: 30px;
+    }
     
-.home2 .home2-text h2{
-    font-size: 35px;
-}
-.home2 .home2-text h5{
-    font-size: 17px;
-}
-.services-wrapper h1{
-    font-size: 35px;
-}
-.about{
-    padding:40px 0;
-}
-.about .row{
-    gap: 1px;
-    margin-top: 20px;
-}
-.about .row .col{
-    width: 300px;
-    padding: 50px 5px;
-}
-.about .about-heading{
-    font-size: 15px;
+    .home2 .home2-text h2{
+        font-size: 35px;
+    }
+    .home2 .home2-text h5{
+        font-size: 14px;
+    }
+    .home2 .stats{
+        display: flex;
+        flex-direction: column;
+    }
+    .home2 .stats #impact{
+        border: none;
+    }
+    .services-wrapper h1{
+        font-size: 35px;
+    }
+    .about{
+        padding:40px 0;
+    }
+    .about .row{
+        gap: 1px;
+        margin-top: 20px;
+    }
+    .about .row .col{
+        width: 300px;
+        padding: 50px 5px;
+    }
+    .about .about-heading{
+        font-size: 15px;
 
-}
-.about .about-heading h3{
-    margin-bottom: 10px;
-}
+    }
+    .about .about-heading h3{
+        margin-bottom: 10px;
+    }
 
 }
 
